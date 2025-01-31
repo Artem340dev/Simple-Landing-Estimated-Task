@@ -28,9 +28,6 @@ export const orderCreateApi = async ({
     
         return {data: response.data};
     } catch (error) {
-        if (axios.isAxiosError(error)) {
-        }
-
         return {};
     }
 }

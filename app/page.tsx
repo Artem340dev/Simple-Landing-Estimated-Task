@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const MainPage = () => {
   return (
-    <div className="absolute flex flex-col justify-center items-center w-full h-full">
+    <div className="absolute w-1/4 flex flex-col justify-center items-center w-full h-full">
       <OrderCreateForm />
     </div>
   );

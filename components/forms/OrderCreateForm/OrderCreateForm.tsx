@@ -101,7 +101,7 @@ export const OrderCreateForm: React.FC<OrderCreateFormProps> = ({
             setIsQueryEnabled(true);
 
             refetch()
-                .then((response) => {
+                .then(() => {
                     setIsFormSent(true);
                     dispatch(addData([phone, {phone, name}]));
                 });
